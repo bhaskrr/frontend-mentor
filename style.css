@@ -58,6 +58,7 @@ main h1:hover{
 }
 
 main p {
+    text-wrap: wrap;
     font-size: 16px;
     color: grey;
     font-weight: 600;
