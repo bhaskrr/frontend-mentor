@@ -47,13 +47,13 @@ svg {
     font-weight: 600;
 }
 
-main h2{
+main h1{
     font-family: figtree-600;
     font-weight: 800;
     cursor: pointer;
 }
 
-main h2:hover{
+main h1:hover{
     color: var(--primary-color);
 }
 
@@ -82,7 +82,7 @@ footer p{
     padding: 0 0.8rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 468px) {
     svg{
         width: 100%;
     }
