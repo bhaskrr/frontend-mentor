@@ -31,6 +31,7 @@ body {
 
 svg {
     border-radius: 1rem;
+    width: 100%;
 }
 
 .learning {
@@ -51,6 +52,7 @@ main h1{
     font-family: figtree-600;
     font-weight: 800;
     cursor: pointer;
+    
 }
 
 main h1:hover{
