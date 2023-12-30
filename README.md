@@ -14,8 +14,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/bhaskrr/frontend-mentor-blog-preview-card)
-- Live Site URL: [vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://frontend-mentor-blog-preview-card-kappa.vercel.app/)
 
 ## My process
 
@@ -44,8 +42,8 @@ Users should be able to:
 
 ### What I learned
 
-1.Learned how to add .ttf fonts to a project
-2.Learned to use css flexbox
+- 1.Learned how to add .ttf fonts to a project
+- 2.Learned to use css flexbox
 
 ## Author
 
