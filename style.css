@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #f5d04e;
+}
+
+@font-face {
+    font-family: figtree-800;
+    src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtree-600;
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 8px 10px black;
+}
+
+svg {
+    border-radius: 1rem;
+}
+
+.learning {
+    font-family: figtree-600;
+    font-weight: 800;
+    padding: 0.4rem 0.6rem;
+    width: max-content;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+}
+
+.published-date {
+    font-family: figtree-600;
+    font-weight: 600;
+}
+
+main h2{
+    font-family: figtree-600;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+main h2:hover{
+    color: var(--primary-color);
+}
+
+main p {
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+    font-family: figtree-600;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer img{
+    width: 2rem;
+    height: 2rem;
+}
+
+footer p{
+    cursor: pointer;
+    font-family: figtree-600;
+    font-weight: 800;
+    margin: 0;
+    padding: 0 0.8rem;
+}
+
+@media (max-width: 375px) {
+    svg{
+        width: 100%;
+    }
+}
